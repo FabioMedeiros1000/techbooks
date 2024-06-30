@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techbooks</title>
+    <!--Fonte Lexend-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top pt-3 pb-3" id="cabecalho">
+        <div class="container">
+            <h1>Techbooks</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu">
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a href="#sobre-a-loja" class="nav-link">Sobre a loja</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#produtos" class="nav-link">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#fale-conosco" class="nav-link">Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-loja" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h1>Sobre a loja</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At quis natus officiis cumque iusto magni aut repudiandae rerum labore. Deleniti officiis totam rerum reiciendis iste optio in, saepe veritatis animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. At quis natus officiis cumque iusto magni aut repudiandae rerum labore. Deleniti officiis totam rerum reiciendis iste optio in, saepe veritatis animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. At quis natus officiis cumque iusto magni aut repudiandae rerum labore. Deleniti officiis totam rerum reiciendis iste optio in, saepe veritatis animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. At quis natus officiis cumque iusto magni aut repudiandae rerum labore. Deleniti officiis totam rerum reiciendis iste optio in, saepe veritatis animi.
+                    </p>
+                </div>
+            </div>
+            <div class="container d-block w-75 mt-5">
+                <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <img class="d-block w-100 rounded" src="./images/carrossel/slide1.jpg">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="d-block w-100 rounded" src="./images/carrossel/slide2.jpg">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="d-block w-100 rounded" src="./images/carrossel/slide3.jpg">
+                        </div>
+                    </div>
+                    <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button data-bs-target="#carousel" class="active" data-bs-slide-to="0" type="button"></button>
+                        <button data-bs-target="#carousel" data-bs-slide-to="1" type="button"></button>
+                        <button data-bs-target="#carousel" data-bs-slide-to="2" type="button"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="produtos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h1>Produtos Disponíveis</h1>
+                </div>
+                <div class="row mt-3">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column mb-3">
+                            <button data-bs-toggle="tab" data-bs-target="#smartphone" type="button" class="nav-link active">Smartphone</button>
+                            <button data-bs-toggle="tab" data-bs-target="#tablet" type="button" class="nav-link">Tablet</button>
+                            <button data-bs-toggle="tab" data-bs-target="#notebook" type="button" class="nav-link">Notebook</button>
+                            <button data-bs-toggle="tab" data-bs-target="#pc" type="button" class="nav-link">PC</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="smartphone">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/smartphones/smartphone1.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/smartphones/smartphone2.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/smartphones/smartphone1.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/smartphones/smartphone2.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/smartphones/smartphone1.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/smartphones/smartphone2.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/smartphones/smartphone1.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/smartphones/smartphone2.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tablet">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/tablets/tablet1.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/tablets/tablet2.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/tablets/tablet1.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/tablets/tablet2.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/tablets/tablet1.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/tablets/tablet2.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/tablets/tablet1.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/tablets/tablet2.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="notebook">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/notebooks/notebook1.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/notebooks/notebook2.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/notebooks/notebook1.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/notebooks/notebook2.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/notebooks/notebook1.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/notebooks/notebook2.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/notebooks/notebook1.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/notebooks/notebook2.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pc">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/pcs/pc1.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/pcs/pc2.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/pcs/pc1.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/pcs/pc2.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/pcs/pc1.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/pcs/pc2.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/pcs/pc1.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-4">
+                                            <img class="d-block w-100" src="./images/pcs/pc2.jpg">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dolores dignissimos est quisquam? Voluptatem aliquam illum veniam ea tenetur obcaecati quaerat mollitia praesentium vel facere. Accusantium qui cum minima fuga!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <h1>Fale conosco</h1>
+                <div class="row">
+                    <div class="col-md-8">
+                        <form>
+                            <div class="pb-3">
+                                <label for="nome" class="form-label">Nome</label>
+                                <input type="text" class="form-control" id="nome" required>
+                            </div>
+                            <div class="pb-3">
+                                <label for="email" class="form-label">E-mail</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="pb-3">
+                                <label for="telefone" class="form-label">Telefone</label>
+                                <input type="tel" class="form-control" id="telefone" required>
+                            </div>
+                            <div class="pb-3">
+                                <label for="mensagem" class="form-label">Mensagem (opcional)</label>
+                                <textarea id="mensagem" class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-4 mt-md-0 mt-3">
+                        <h4>Redes sociais</h4>
+                        <div class="row">
+                            <div class="col fs-3">
+                                <i class="bi bi-instagram"></i>
+                            </div>
+                            <div class="col fs-3">
+                                <i class="bi bi-facebook"></i>
+                            </div>
+                            <div class="col fs-3">
+                                <i class="bi bi-tiktok"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+        
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
