@@ -54,6 +54,8 @@ header .nav-item .nav-link.active{
 #fale-conosco,
 #produtos .nav-link.active{
     background-color: #d4cfa5;
+    padding: 8px;
+    width: 100%;
 }
 
 .form-control{
