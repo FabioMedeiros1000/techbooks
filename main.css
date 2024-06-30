@@ -13,7 +13,6 @@ header .nav-item .nav-link{
 
 header .nav-item .nav-link.active{
     background-color: #a29d7f;
-    color: #f8ecd4;
 }
 
 .navbar-toggler{
@@ -39,9 +38,13 @@ header .nav-item .nav-link.active{
 }
 
 #produtos,
-.btn,
-.btn:hover{
+.btn{
     background-color: #f8ecd4;
+}
+
+.btn:hover{
+    background-color: #230b00;
+    color: #f8ecd4 ;
 }
 
 #produtos .nav-link{
@@ -61,4 +64,16 @@ header .nav-item .nav-link.active{
     box-shadow: none;
     background-color: #f8ecd4 ;
     outline: 2px solid #230b00;
+}
+
+i{
+    cursor: pointer;
+}
+
+footer{
+    background-color: #230b00;
+}
+
+footer > .container{
+    color: #f8ecd4;
 }
