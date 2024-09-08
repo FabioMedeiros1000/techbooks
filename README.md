@@ -23,3 +23,5 @@ Construir uma página web para vender smartphones, tablets, notebooks e PCs util
 > **Nota**: Nenhuma informação será salva. É apenas um exemplo ilustrativo.
 - Contém ícones de redes sociais para contato.
 > **Nota**: Os links das redes sociais são fictícios e não levam a página alguma. Eles estão na página apenas para compor o design.
+
+## Link da aplicação
