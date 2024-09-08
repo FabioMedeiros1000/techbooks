@@ -25,3 +25,4 @@ Construir uma página web para vender smartphones, tablets, notebooks e PCs util
 > **Nota**: Os links das redes sociais são fictícios e não levam a página alguma. Eles estão na página apenas para compor o design.
 
 ## Link da aplicação
+[Demonstração](https://fabio-techbooks.vercel.app/)
